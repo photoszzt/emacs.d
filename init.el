@@ -128,6 +128,8 @@
   ;; need statistics of keyfreq asap
   (require-init 'init-keyfreq t)
   (require-init 'init-httpd t)
+  (require-init 'init-rust-mode t)
+  (require-init 'init-go-mode t)
 
   ;; projectile costs 7% startup time
 
@@ -151,6 +153,7 @@
   ;; ediff configuration should be last so it can override
   ;; the key bindings in previous configuration
   (require-init 'init-ediff)
+
 
   ;; @see https://github.com/hlissner/doom-emacs/wiki/FAQ
   ;; Adding directories under "site-lisp/" to `load-path' slows
